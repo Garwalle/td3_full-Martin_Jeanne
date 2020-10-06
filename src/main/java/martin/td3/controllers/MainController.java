@@ -92,6 +92,5 @@ public class MainController {
 		vue.addMethod("deleteItem" , " const index = this.organizations.indexOf(item)\r\n"
 				+ "      confirm('Are you sure you want to delete this item?') && this.organizations.splice(index, 1) && this.$http['delete']('http://http://127.0.0.1:8080/orgas/'+ item.id)","item");
 		
-		
 	}
 }
